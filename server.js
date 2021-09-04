@@ -1,7 +1,9 @@
-var express = require ('express'),
+import Config from "../config.json";
+
+var express = require('express'),
 	app = express(),
-	PORT = 3333,
-	HOST = '0.0.0.0';
+	PORT = Config.PORT,
+	HOST = Config.BASE_URL;
 
 bodyParser = require('body-parser');
 
