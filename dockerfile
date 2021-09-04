@@ -19,8 +19,6 @@ RUN npm install
 # RUN npm ci --only=production
 
 # Bundle app source
-FROM nginx:1.17
-WORKDIR /usr/share/nginx/html
 COPY . .
 
 
