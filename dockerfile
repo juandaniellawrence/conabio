@@ -1,10 +1,8 @@
 FROM node:14
 
-
 ENV BASE_URL=localhost
 ENV PORT =3333
 ENV NODE_ENV=production
-
 
 # Create app directory
 WORKDIR /usr/src/app
