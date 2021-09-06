@@ -1,4 +1,5 @@
-import Config from "../config.json";
+const HOST = process.env.HOSTNAME || 'localhost'
+const PORT = process.env.PORT || 3333
 
 var express = require('express'),
 	app = express(),
