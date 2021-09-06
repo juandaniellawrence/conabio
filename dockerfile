@@ -1,7 +1,7 @@
 FROM node:14
 
-ENV HOSTNAME=localhost
-ENV PORT =3333
+ENV BASE_URL="apitest"
+ENV PORT="3333"
 
 # Create app directory
 WORKDIR /usr/src/app
