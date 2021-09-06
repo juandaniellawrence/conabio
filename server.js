@@ -2,9 +2,7 @@ const HOST = process.env.HOSTNAME || 'localhost'
 const PORT = process.env.PORT || 3333
 
 var express = require('express'),
-	app = express(),
-	PORT = Config.PORT,
-	HOST = Config.BASE_URL;
+	app = express();
 
 bodyParser = require('body-parser');
 
